@@ -1,0 +1,23 @@
+[0.400s] Invoking command in '/home/thrilok/ros_ws/build/butler_bot': PYTHONPATH=/home/thrilok/ros_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thrilok/ros_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thrilok/ros_ws/build/butler_bot/build --no-deps symlink_data
+[0.576s] running develop
+[0.686s] running egg_info
+[0.686s] creating butler_bot.egg-info
+[0.686s] writing butler_bot.egg-info/PKG-INFO
+[0.686s] writing dependency_links to butler_bot.egg-info/dependency_links.txt
+[0.687s] writing entry points to butler_bot.egg-info/entry_points.txt
+[0.687s] writing requirements to butler_bot.egg-info/requires.txt
+[0.687s] writing top-level names to butler_bot.egg-info/top_level.txt
+[0.687s] writing manifest file 'butler_bot.egg-info/SOURCES.txt'
+[0.687s] reading manifest file 'butler_bot.egg-info/SOURCES.txt'
+[0.688s] writing manifest file 'butler_bot.egg-info/SOURCES.txt'
+[0.689s] running build_ext
+[0.689s] Creating /home/thrilok/ros_ws/install/butler_bot/lib/python3.10/site-packages/butler-bot.egg-link (link to .)
+[0.689s] 
+[0.689s] Installed /home/thrilok/ros_ws/build/butler_bot
+[0.689s] running symlink_data
+[0.689s] creating /home/thrilok/ros_ws/install/butler_bot/share/ament_index
+[0.690s] creating /home/thrilok/ros_ws/install/butler_bot/share/ament_index/resource_index
+[0.690s] creating /home/thrilok/ros_ws/install/butler_bot/share/ament_index/resource_index/packages
+[0.690s] symbolically linking /home/thrilok/ros_ws/build/butler_bot/resource/butler_bot -> /home/thrilok/ros_ws/install/butler_bot/share/ament_index/resource_index/packages
+[0.690s] symbolically linking /home/thrilok/ros_ws/build/butler_bot/package.xml -> /home/thrilok/ros_ws/install/butler_bot/share/butler_bot
+[0.708s] Invoked command in '/home/thrilok/ros_ws/build/butler_bot' returned '0': PYTHONPATH=/home/thrilok/ros_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thrilok/ros_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thrilok/ros_ws/build/butler_bot/build --no-deps symlink_data

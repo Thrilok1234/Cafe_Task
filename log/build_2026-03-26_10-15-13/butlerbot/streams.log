@@ -1,0 +1,218 @@
+[0.010s] Invoking command in '/home/thrilok/ros_ws/build/butlerbot': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/thrilok/ros_ws/src/Cafe/butlerbot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thrilok/ros_ws/install/butlerbot
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.446s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.478s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.521s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.523s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[0.525s] -- Found ros2_control: 2.52.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.526s] -- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[0.561s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.566s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.572s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.711s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.728s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.735s] -- Looking for pthread.h
+[0.799s] -- Looking for pthread.h - found
+[0.799s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.861s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.862s] -- Found Threads: TRUE  
+[0.927s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.928s] -- Checking for module 'bullet>=2.82'
+[0.943s] --   Found bullet, version 3.05
+[1.071s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.148s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.164s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.190s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.200s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.207s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.212s] -- Searching for dependencies of ignition-math6
+[1.213s] -- Looking for OGRE...
+[1.213s] -- OGRE_PREFIX_WATCH changed.
+[1.218s] -- Checking for module 'OGRE'
+[1.234s] --   Found OGRE, version 1.9.0
+[1.279s] -- Found Ogre Ghadamon (1.9.0)
+[1.289s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.297s] -- Looking for OGRE_Paging...
+[1.301s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.301s] -- Looking for OGRE_Terrain...
+[1.305s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.305s] -- Looking for OGRE_Property...
+[1.309s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.309s] -- Looking for OGRE_RTShaderSystem...
+[1.312s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.313s] -- Looking for OGRE_Volume...
+[1.316s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.316s] -- Looking for OGRE_Overlay...
+[1.320s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.400s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.403s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.403s] -- Searching for dependencies of ignition-transport8
+[1.414s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.421s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.425s] -- Checking for module 'libzmq >= 4'
+[1.439s] --   Found libzmq , version 4.3.4
+[1.486s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.493s] -- Checking for module 'uuid'
+[1.514s] --   Found uuid, version 2.37.2
+[1.564s] -- Found UUID: TRUE  
+[1.569s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.569s] -- Searching for dependencies of ignition-msgs5
+[1.584s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.589s] -- Checking for module 'tinyxml2'
+[1.605s] --   Found tinyxml2, version 9.0.0
+[1.653s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.656s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.657s] -- Searching for dependencies of ignition-common3
+[1.657s] -- Looking for dlfcn.h - found
+[1.658s] -- Looking for libdl - found
+[1.660s] -- Found DL: TRUE  
+[1.673s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.673s] -- Searching for <ignition-common3> component [graphics]
+[1.675s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.675s] -- Searching for dependencies of ignition-common3-graphics
+[1.675s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.678s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.678s] -- Searching for dependencies of ignition-fuel_tools4
+[1.776s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.786s] -- Checking for module 'jsoncpp'
+[1.800s] --   Found jsoncpp, version 1.9.5
+[1.849s] -- Found JSONCPP: TRUE  
+[1.857s] -- Checking for module 'libzip'
+[1.878s] --   Found libzip, version 1.7.3
+[1.933s] -- Found ZIP: TRUE  
+[1.933s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.933s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.934s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.939s] -- Gazebo version: 11.10
+[1.939s] -- Checking for module 'tbb'
+[1.960s] --   Found tbb, version 2021.5.0
+[2.028s] -- Found joint_state_broadcaster: 2.50.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[2.049s] -- Found velocity_controllers: 2.50.0 (/opt/ros/humble/share/velocity_controllers/cmake)
+[2.062s] -- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+[2.063s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.088s] -- Found nav2_util: 1.1.18 (/opt/ros/humble/share/nav2_util/cmake)
+[2.136s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.137s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.137s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.159s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[2.221s] -- Found bb_interfaces: 0.0.0 (/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/cmake)
+[2.231s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.289s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.290s] -- Added test 'lint_cmake' to check CMake code style
+[2.291s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.293s] -- Added test 'xmllint' to check XML markup files
+[2.294s] -- Configuring done
+[2.298s] -- Generating done
+[2.300s] -- Build files have been written to: /home/thrilok/ros_ws/build/butlerbot
+[2.310s] Invoked command in '/home/thrilok/ros_ws/build/butlerbot' returned '0': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/thrilok/ros_ws/src/Cafe/butlerbot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thrilok/ros_ws/install/butlerbot
+[2.311s] Invoking command in '/home/thrilok/ros_ws/build/butlerbot': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/thrilok/ros_ws/build/butlerbot -- -j12 -l12
+[2.344s] Invoked command in '/home/thrilok/ros_ws/build/butlerbot' returned '0': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/thrilok/ros_ws/build/butlerbot -- -j12 -l12
+[2.345s] Invoking command in '/home/thrilok/ros_ws/build/butlerbot': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/thrilok/ros_ws/build/butlerbot
+[2.351s] -- Install configuration: ""
+[2.351s] -- Execute custom install script
+[2.351s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//config/amcl.yaml
+[2.357s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//config/behavior.xml
+[2.363s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//config/mapper_async.yaml
+[2.369s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//config/nav_viz.rviz
+[2.377s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//config/navigation.yaml
+[2.382s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//config/rsp.rviz
+[2.388s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/desc.launch.py
+[2.394s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/localisation.launch.py
+[2.400s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/main.launch.py
+[2.406s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/navigation.launch.xml
+[2.411s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/pathplanning.launch.py
+[2.417s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/rsp.launch.py
+[2.423s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/rviz.launch.py
+[2.429s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/slam.launch.py
+[2.435s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/spawn_robot.launch.xml
+[2.441s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//launch/world.launch.py
+[2.447s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_10.jpg
+[2.453s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_2.jpg
+[2.459s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_21.jpg
+[2.465s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_22.jpg
+[2.471s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_23.jpg
+[2.477s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_24.jpg
+[2.483s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_25.jpg
+[2.489s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_26.jpg
+[2.496s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_28.jpg
+[2.502s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_29.jpg
+[2.507s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_30.jpg
+[2.513s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_31.jpg
+[2.519s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_34.jpg
+[2.525s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_35.jpg
+[2.531s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/materials/textures/__auto_37.jpg
+[2.537s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/meshes/cafe.dae
+[2.543s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/model.config
+[2.549s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe/model.sdf
+[2.555s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe_table/materials/textures/Maple.jpg
+[2.561s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+[2.567s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe_table/meshes/cafe_table.dae
+[2.573s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe_table/model-1_4.sdf
+[2.579s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe_table/model.config
+[2.585s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/cafe_table/model.sdf
+[2.591s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/ground_plane/model-1_2.sdf
+[2.598s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/ground_plane/model-1_3.sdf
+[2.603s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/ground_plane/model-1_4.sdf
+[2.609s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/ground_plane/model.config
+[2.617s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/ground_plane/model.sdf
+[2.623s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/table_marble/materials/scripts/table_lightmap.material
+[2.630s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/table_marble/materials/textures/marble.png
+[2.637s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/table_marble/materials/textures/table_lightmap.png
+[2.643s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/table_marble/meshes/table_lightmap.dae
+[2.649s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/table_marble/model-1_4.sdf
+[2.655s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/table_marble/model.config
+[2.662s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//models/models/table_marble/model.sdf
+[2.668s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//worlds/cafe.world
+[2.674s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//worlds/cafe_new.world
+[2.680s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//worlds/cafe_table.world
+[2.688s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//worlds/new_cafe.world
+[2.697s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//media/media/frames/frames.gv
+[2.704s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//media/media/frames/frames.pdf
+[2.711s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//media/media/node_graph/rviz_launch_rosgraph.png
+[2.716s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//meshes/body.stl
+[2.722s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//meshes/sensors/realsense.dae
+[2.727s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//meshes/sensors/rplidar.dae
+[2.733s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//meshes/sensors/rplidartexture.png
+[2.739s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//meshes/textures/lambert3_baseColor.png
+[2.745s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//scripts/3lok.py
+[2.751s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//scripts/move_robot.py
+[2.757s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//urdf/bot.urdf
+[2.763s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//maps/cafe_map.pgm
+[2.769s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//maps/cafe_map.yaml
+[2.775s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//maps/cafe_table.pgm
+[2.781s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//maps/cafe_table.yaml
+[2.787s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//maps/final_map.pgm
+[2.793s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot//maps/final_map.yaml
+[2.800s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/lib/butlerbot/move_robot.py
+[2.806s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/ament_index/resource_index/package_run_dependencies/butlerbot
+[2.811s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/ament_index/resource_index/parent_prefix_path/butlerbot
+[2.817s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/environment/ament_prefix_path.sh
+[2.823s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/environment/ament_prefix_path.dsv
+[2.829s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/environment/path.sh
+[2.835s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/environment/path.dsv
+[2.843s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/local_setup.bash
+[2.848s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/local_setup.sh
+[2.853s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/local_setup.zsh
+[2.859s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/local_setup.dsv
+[2.865s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.dsv
+[2.871s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/ament_index/resource_index/packages/butlerbot
+[2.877s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/cmake/butlerbotConfig.cmake
+[2.883s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/cmake/butlerbotConfig-version.cmake
+[2.889s] -- Symlinking: /home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.xml
+[2.898s] Invoked command in '/home/thrilok/ros_ws/build/butlerbot' returned '0': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/thrilok/ros_ws/build/butlerbot

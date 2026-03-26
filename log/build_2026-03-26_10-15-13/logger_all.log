@@ -1,0 +1,294 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a2fdb482110>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a2fdb5fb610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a2fdb5fb610>>, mixin_verb=('build',))
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.159s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thrilok/ros_ws'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/bb_interfaces) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Cafe/bb_interfaces' with type 'ros.ament_cmake' and name 'bb_interfaces'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/Cafe/butlerbot) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Cafe/butlerbot' with type 'ros.ament_cmake' and name 'butlerbot'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/butler_bot' with type 'ros.ament_python' and name 'butler_bot'
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.188s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/thrilok/ros_ws/install/butlerbot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.188s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/thrilok/ros_ws/install/butler_bot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.188s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/thrilok/ros_ws/install/bb_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/thrilok/ros_ws/install/butlerbot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/thrilok/ros_ws/install/bb_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/thrilok/ros_ws/install
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/thrilok/butler_ws/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/thrilok/turtlebot3_ws/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/thrilok/robot_ws/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/thrilok/gantry_ws/install
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 452 installed packages in /opt/ros/humble
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bb_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'bb_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thrilok/ros_ws/build/bb_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thrilok/ros_ws/install/bb_interfaces', 'merge_install': False, 'path': '/home/thrilok/ros_ws/src/Cafe/bb_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'butler_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thrilok/ros_ws/build/butler_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thrilok/ros_ws/install/butler_bot', 'merge_install': False, 'path': '/home/thrilok/ros_ws/src/butler_bot', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'butlerbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'butlerbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thrilok/ros_ws/build/butlerbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thrilok/ros_ws/install/butlerbot', 'merge_install': False, 'path': '/home/thrilok/ros_ws/src/Cafe/butlerbot', 'symlink_install': True, 'test_result_base': None}
+[0.224s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.225s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thrilok/ros_ws/src/Cafe/bb_interfaces' with build type 'ament_cmake'
+[0.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thrilok/ros_ws/src/Cafe/bb_interfaces'
+[0.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thrilok/ros_ws/src/butler_bot' with build type 'ament_python'
+[0.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('butler_bot', 'ament_prefix_path')
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/hook/ament_prefix_path.ps1'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/hook/ament_prefix_path.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/hook/ament_prefix_path.sh'
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thrilok/ros_ws/build/bb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble /usr/bin/cmake /home/thrilok/ros_ws/src/Cafe/bb_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thrilok/ros_ws/install/bb_interfaces
+[0.399s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thrilok/ros_ws/src/butler_bot'
+[0.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thrilok/ros_ws/build/butler_bot': PYTHONPATH=/home/thrilok/ros_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thrilok/ros_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thrilok/ros_ws/build/butler_bot/build --no-deps symlink_data
+[0.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('butler_bot', 'pythonpath_develop')
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/build/butler_bot/share/butler_bot/hook/pythonpath_develop.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/build/butler_bot/share/butler_bot/hook/pythonpath_develop.dsv'
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thrilok/ros_ws/build/butler_bot' returned '0': PYTHONPATH=/home/thrilok/ros_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thrilok/ros_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thrilok/ros_ws/build/butler_bot/build --no-deps symlink_data
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/build/butler_bot/share/butler_bot/hook/pythonpath_develop.sh'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butler_bot' for CMake module files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butler_bot' for CMake config files
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butler_bot/lib'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butler_bot/bin'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butler_bot/lib/pkgconfig/butler_bot.pc'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butler_bot/lib/python3.10/site-packages'
+[0.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('butler_bot', 'pythonpath')
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/hook/pythonpath.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/hook/pythonpath.dsv'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/hook/pythonpath.sh'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butler_bot/bin'
+[0.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(butler_bot)
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/package.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/package.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/package.sh'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/package.bash'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butler_bot/share/butler_bot/package.zsh'
+[0.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thrilok/ros_ws/install/butler_bot/share/colcon-core/packages/butler_bot)
+[1.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thrilok/ros_ws/build/bb_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble /usr/bin/cmake /home/thrilok/ros_ws/src/Cafe/bb_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thrilok/ros_ws/install/bb_interfaces
+[1.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thrilok/ros_ws/build/bb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble /usr/bin/cmake --build /home/thrilok/ros_ws/build/bb_interfaces -- -j12 -l12
+[2.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thrilok/ros_ws/build/bb_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble /usr/bin/cmake --build /home/thrilok/ros_ws/build/bb_interfaces -- -j12 -l12
+[2.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thrilok/ros_ws/build/bb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble /usr/bin/cmake --install /home/thrilok/ros_ws/build/bb_interfaces
+[3.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bb_interfaces)
+[3.470s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces' for CMake module files
+[3.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thrilok/ros_ws/build/bb_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble /usr/bin/cmake --install /home/thrilok/ros_ws/build/bb_interfaces
+[3.471s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces' for CMake config files
+[3.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('bb_interfaces', 'cmake_prefix_path')
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/cmake_prefix_path.ps1'
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/cmake_prefix_path.dsv'
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/cmake_prefix_path.sh'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/lib'
+[3.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('bb_interfaces', 'ld_library_path_lib')
+[3.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/ld_library_path_lib.ps1'
+[3.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/ld_library_path_lib.dsv'
+[3.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/ld_library_path_lib.sh'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/bin'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/lib/pkgconfig/bb_interfaces.pc'
+[3.473s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/lib/python3.10/site-packages'
+[3.473s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/bin'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.ps1'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.dsv'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.sh'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.bash'
+[3.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.zsh'
+[3.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thrilok/ros_ws/install/bb_interfaces/share/colcon-core/packages/bb_interfaces)
+[3.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bb_interfaces)
+[3.474s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces' for CMake module files
+[3.474s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces' for CMake config files
+[3.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('bb_interfaces', 'cmake_prefix_path')
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/cmake_prefix_path.ps1'
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/cmake_prefix_path.dsv'
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/cmake_prefix_path.sh'
+[3.475s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/lib'
+[3.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('bb_interfaces', 'ld_library_path_lib')
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/ld_library_path_lib.ps1'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/ld_library_path_lib.dsv'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/hook/ld_library_path_lib.sh'
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/bin'
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/lib/pkgconfig/bb_interfaces.pc'
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/lib/python3.10/site-packages'
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/bb_interfaces/bin'
+[3.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.ps1'
+[3.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.dsv'
+[3.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.sh'
+[3.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.bash'
+[3.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/bb_interfaces/share/bb_interfaces/package.zsh'
+[3.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thrilok/ros_ws/install/bb_interfaces/share/colcon-core/packages/bb_interfaces)
+[3.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thrilok/ros_ws/src/Cafe/butlerbot' with build type 'ament_cmake'
+[3.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thrilok/ros_ws/src/Cafe/butlerbot'
+[3.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thrilok/ros_ws/build/butlerbot': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/thrilok/ros_ws/src/Cafe/butlerbot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thrilok/ros_ws/install/butlerbot
+[5.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thrilok/ros_ws/build/butlerbot' returned '0': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/thrilok/ros_ws/src/Cafe/butlerbot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thrilok/ros_ws/install/butlerbot
+[5.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thrilok/ros_ws/build/butlerbot': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/thrilok/ros_ws/build/butlerbot -- -j12 -l12
+[5.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thrilok/ros_ws/build/butlerbot' returned '0': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/thrilok/ros_ws/build/butlerbot -- -j12 -l12
+[5.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thrilok/ros_ws/build/butlerbot': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/thrilok/ros_ws/build/butlerbot
+[6.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(butlerbot)
+[6.376s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot' for CMake module files
+[6.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thrilok/ros_ws/build/butlerbot' returned '0': CMAKE_PREFIX_PATH=/home/thrilok/ros_ws/install/bb_interfaces:/home/thrilok/ros_ws/install/butlerbot:/home/thrilok/turtlebot3_ws/install/turtlebot3:/home/thrilok/turtlebot3_ws/install/turtlebot3_bringup:/home/thrilok/turtlebot3_ws/install/turtlebot3_node:/home/thrilok/turtlebot3_ws/install/turtlebot3_navigation2:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs:/home/thrilok/turtlebot3_ws/install/turtlebot3_description:/home/thrilok/turtlebot3_ws/install/turtlebot3_cartographer:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_examples:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk:/home/thrilok/robot_ws/install/my_robot:/home/thrilok/robot_ws/install/delivery_interfaces:/home/thrilok/gantry_ws/install/project1_gantry_robot:/home/thrilok/butler_ws/install/butler_robot:/home/thrilok/butler_ws/install/butler_bot:/home/thrilok/ros_ws/install/butler_bot:/home/thrilok/turtlebot3_ws/install/turtlebot3_teleop:/home/thrilok/turtlebot3_ws/install/turtlebot3_example:/home/thrilok/robot_ws/install/task_manager:/home/thrilok/robot_ws/install/robot_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/thrilok/ros_ws/install/bb_interfaces/lib:/home/thrilok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/thrilok/turtlebot3_ws/install/dynamixel_sdk/lib:/home/thrilok/robot_ws/install/delivery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/thrilok/ros_ws/build/butlerbot
+[6.377s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot' for CMake config files
+[6.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('butlerbot', 'cmake_prefix_path')
+[6.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/hook/cmake_prefix_path.ps1'
+[6.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/hook/cmake_prefix_path.dsv'
+[6.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/hook/cmake_prefix_path.sh'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/lib'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/bin'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/lib/pkgconfig/butlerbot.pc'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/lib/python3.10/site-packages'
+[6.380s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/bin'
+[6.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.ps1'
+[6.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.dsv'
+[6.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.sh'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.bash'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.zsh'
+[6.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thrilok/ros_ws/install/butlerbot/share/colcon-core/packages/butlerbot)
+[6.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(butlerbot)
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot' for CMake module files
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot' for CMake config files
+[6.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('butlerbot', 'cmake_prefix_path')
+[6.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/hook/cmake_prefix_path.ps1'
+[6.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/hook/cmake_prefix_path.dsv'
+[6.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/hook/cmake_prefix_path.sh'
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/lib'
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/bin'
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/lib/pkgconfig/butlerbot.pc'
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/lib/python3.10/site-packages'
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/thrilok/ros_ws/install/butlerbot/bin'
+[6.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.ps1'
+[6.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.dsv'
+[6.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.sh'
+[6.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.bash'
+[6.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/thrilok/ros_ws/install/butlerbot/share/butlerbot/package.zsh'
+[6.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thrilok/ros_ws/install/butlerbot/share/colcon-core/packages/butlerbot)
+[6.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.385s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.390s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.402s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thrilok/ros_ws/install/local_setup.ps1'
+[6.403s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thrilok/ros_ws/install/_local_setup_util_ps1.py'
+[6.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thrilok/ros_ws/install/setup.ps1'
+[6.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thrilok/ros_ws/install/local_setup.sh'
+[6.406s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thrilok/ros_ws/install/_local_setup_util_sh.py'
+[6.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thrilok/ros_ws/install/setup.sh'
+[6.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thrilok/ros_ws/install/local_setup.bash'
+[6.407s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thrilok/ros_ws/install/setup.bash'
+[6.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thrilok/ros_ws/install/local_setup.zsh'
+[6.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thrilok/ros_ws/install/setup.zsh'
