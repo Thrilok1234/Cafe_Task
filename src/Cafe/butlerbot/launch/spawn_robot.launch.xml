@@ -1,0 +1,6 @@
+<?xml version='1.0'?>
+<launch>
+    <include file="$(find-pkg-share butlerbot)/launch/world.launch.py"/>
+    <include file="$(find-pkg-share butlerbot)/launch/rsp.launch.py"/>
+    <include file="$(find-pkg-share butlerbot)/launch/desc.launch.py"/>
+</launch>
